@@ -1,6 +1,6 @@
 # log-in-to-spotify
 
-Spotify-style login page built as a static web app.
+Spotify-style login page — my skills and works.
 
 ## Run locally
 
