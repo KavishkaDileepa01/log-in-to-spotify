@@ -6,10 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - Spotify</title>
     <meta name="description" content="Login to Spotify. Listen to music." />
-    <script type="module" crossorigin src="./assets/index-gof6km2a.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DggWAaE3.css">
+    <style>
+      html, body { margin: 0; min-height: 100%; background: #000; color: #fff; }
+      #root { min-height: 100vh; }
+      .boot-fallback {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, sans-serif;
+        color: #b3b3b3;
+      }
+    </style>
+    <link rel="stylesheet" href="assets/index-DggWAaE3.css" />
+    <script type="module" src="assets/index-gof6km2a.js"></script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <p class="boot-fallback">Loading…</p>
+    </div>
+    <noscript>
+      <p style="text-align:center;padding:2rem;font-family:system-ui,sans-serif;color:#fff;background:#000;">
+        JavaScript is required to view this page.
+      </p>
+    </noscript>
   </body>
 </html>
